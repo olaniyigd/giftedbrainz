@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 100px;
+    width:100px;
+    margin-right:50%;
+    margin-left: 40%;
+    cursor: pointer;
+    border-radius: 100%;
+}
+a{
+    text-decoration: none;
+}
+.desktop-nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 20vh;
+    width:100%;
+}
+.desktop-nav ul{
+    display:flex;
+    gap:50px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.desktop-nav ul li{
+    color:black;
+    font-weight: 800;
+    margin: 0 25px;
+    cursor: pointer;
+}
+.desktop-nav ul li:hover{
+    border-bottom: 2px solid blue;
+    transition:0.9s;
+}
+.sign-in{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border:1px solid blue;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn-1{
+    padding:10px;
+    cursor: pointer;
+    display:none;
+    background-color: blue;
+    border:5px solid blue;
+    color:white;
+}
+.sign-in:hover{
+    background-color: transparent;
+    color:black;
+    transition: 0.9s;
+}
+.mobile-nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    list-style-type: none;
+    gap:10px;
+    background-color: blue;
+    height:0;
+    overflow: hidden;
+    width:100%;
+    transition:ease-in-out .9s;
+}
+.mobile-nav li{
+    color:white;
+    cursor: pointer;
+}
+.mobile-nav li:hover{
+    width: 108px;
+    color:black;
+    transition: 0.9s;
+}
+@media screen and (max-width: 900px){
+    img{
+        height: 70px;
+        width:70px;
+        cursor: pointer;
+    }
+    .desktop-nav{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: white;
+        height: 15vh;
+        width:100%;
+    }
+    .desktop-nav ul li{
+        display:none;
+    }
+    .btn-1{
+        padding:5px 15px;
+        cursor: pointer;
+        display:block;
+        background-color: blue;
+        border:5px solid blue;
+        border-radius: 10px;
+        color:white;
+    }
+    .mobile-nav{
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        list-style-type: none;
+        background-color: blue;
+        margin:0px 20px;
+        width:90%;
+        height: 0;
+        transition:ease-in-out .9s;
+    }
+    .mobile-nav li{
+        color:white;
+        cursor: pointer;
+        padding: 13px 20px;
+    }
+    .sign-in{
+        display: none;
+    }
+    .show{
+        height: 215px;
+    }
+}

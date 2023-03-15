@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.dash-head{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    background-color: blue;
+}
+.dash-left{
+    background-color: white;
+    height: 100vh;
+    width:20%;
+    border: 1px solid rgb(131, 125, 125);
+}
+.dash-right{
+    background-color: white;
+    height: 100vh;
+    width:80%;
+}
+.ako{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:100px;
+}
+.dashimage{
+    width:70px;
+    height: 70px;
+    cursor: pointer;
+}
+.arrow{
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+}
+.eke{
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+}
+.Dashboar{
+    width: 65px;
+    height: 50px;
+}
+.dashtitle{
+    color:white;
+}
+.run{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 15%;
+}
+.running{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.runtitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.conf{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 15%;
+}
+.conferenc{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.contitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.whil{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 68px;
+}
+.wheel{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.wheeltitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.grad{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 90px;
+}
+.graduation{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.gradtitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.ban{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+    padding-top: 40px;
+    padding-right: 88px;
+}
+.bank{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.banktitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.collab{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+    padding-top: 40px;
+    padding-right: 45px;
+}
+.collaboration{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.collaborationtitle{
+    color:black;
+    font-size: 12px;
+    cursor: pointer;
+}
+.hist{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:5px;
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.history{
+    width:35px;
+    height: 20px;
+    cursor: pointer;
+}
+.historytitle{
+    font-size: 12px;
+    color:black;
+    cursor:pointer;
+}
+.below{
+    background-color: blue;
+    height: 23vh;
+    width: 100%;
+}
+.set{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.Setting{
+    width:35px;
+    height: 25px;
+    cursor: pointer;
+}
+.settingtitle{
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+}
+.hep{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.Help{
+    width:35px;
+    height: 25px;
+    cursor: pointer;
+}
+.helptitle{
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+}
+.comm{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.community{
+    width:35px;
+    height: 25px;
+    cursor: pointer;
+}
+.communitytitle{
+    font-size: 15px;
+    color:white;
+    cursor: pointer;
+}
+.dashone{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+.arrowe{
+    width:40px;
+    height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: none;
+
+}
+input{
+    height: 40px;
+    width: 58%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.das{
+    font-size: 30px;
+}
+.Search{
+    width:50px;
+    height: 50px;
+}
+.Notify{
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+}
+.Pic{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.welcome{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nametitle{
+    padding-top: 50px;
+    padding-left: 27px;
+    font-size: 40px;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 30vh;
+    padding: 0 10%;
+    gap:20px;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+.green{
+    background-color: green;
+    width:100%;
+    height: 15vh;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+.orange{
+    background-color: orange;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+.money{
+    color: white;
+}
+.balance{
+    color:white;
+    font-size: 35px;
+}
+.table-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+table{
+    width:100%;
+    padding: 0 100px;
+}
+th{
+    font-size: 20px;
+}
+tr{
+    width:100%;
+    text-align: justify;
+}
+td{
+    width:14%;
+    padding-left: 15%;
+    font-size: 13px;
+    padding-top: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+@media screen and (max-width:900px) {
+    .dash-left{
+        display:none;
+    }
+    .dash-right{
+        width:100%;
+    }
+    .arrowe{
+    width:40px;
+    height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: block;
+}
+.das{
+    font-size: 15px;
+    padding:0 5px;
+}
+.Notify{
+    width:25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.Pic{
+    width:25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.welcome{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nametitle{
+    padding-top: 30px;
+    padding-left: 27px;
+    font-size: 25px;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 30vh;
+    padding: 0 10%;
+    gap:20px;
+}
+.blue{
+    background-color: blue;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+.green{
+    background-color: green;
+    width:100%;
+    height: 15vh;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+.orange{
+    background-color: orange;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+.money{
+    color: white;
+    font-size: 10px;
+}
+.balance{
+    color:white;
+    font-size: 20px;
+}
+.table-title{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+table{
+    width:100%;
+    padding: 0 20px;
+}
+th{
+    font-size: 15px;
+}
+tr{
+    width:100%;
+    text-align: justify;
+}
+td{
+    width:40%;
+    padding-left: 12%;
+    font-size: 10px;
+    padding-top: 16px;
+    font-weight:bolder;
+    border-bottom: 1px solid black;
+}
+    
+}

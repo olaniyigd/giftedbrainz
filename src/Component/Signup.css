@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup-head{
+    background-color: white;
+    width:100%;
+    min-height: 90vh;
+}
+.signup-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1%;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+.signup-form{
+    width: 100%;
+    padding: 2% 40%;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin: 10px  0px;
+    height: 37px;
+    width:130%;
+    border: 2px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.check-box{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.check{
+    height: 18px;
+    width: 150px;
+    cursor: pointer;
+}
+.text{
+    width:100%;
+    font-size: 15px;
+}
+span{
+    color: blue;
+    cursor: pointer;
+}
+.Btn{
+    text-align: center;
+}
+.but2{
+    background-color: blue;
+    color:white;
+    padding:10px 50px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.already{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.footer-form{
+    width:100%;
+    min-height: 10vh;
+    color:white;
+    background-color: blue;
+    display: flex;
+    font-size: 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    cursor: pointer;
+}
+.footer-form h6{
+    color: white;
+}
+@media screen and (max-width:900px) {
+    .signup-head{
+        background-color: white;
+        width:100%;
+        min-height: 70vh;
+        padding-top: 13vh;
+    }
+    .signup-form{
+        padding: 2% 25%;
+    }
+    .check-box{
+        width:100%;
+
+        display: flex;
+        flex-direction: row;
+        gap:35px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .check{
+        height: 18px;
+        width: 50px;
+        margin-left: 25%;
+        cursor: pointer;
+    }
+    .text{
+        width:100%;
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    .already{
+        margin-top: 10px;
+        font-size: 13px;
+        margin-left: 75px;
+    }
+    .footer-form{
+        width:100%;
+        color:white;
+        background-color: blue;
+        display: flex;
+        font-size: 23px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        margin-top: 19%;
+        gap:60px;
+        cursor: pointer;
+    }
+    .footer-form h6{
+        margin-right: 10px;
+        padding-bottom: 35px;
+    }
+    input{
+        margin: 10px  0px;
+        height: 37px;
+        width:130%;
+        border: 2px solid rgb(165, 163, 163);
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+}

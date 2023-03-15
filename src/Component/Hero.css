@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hero-desktop{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-desktop{
+    width: 80%;
+    height: 80vh;
+    padding: 50px  150px;
+}
+.right-desktop{
+    width:100%;
+    height: 80vh;
+}
+h5{
+    width: 100%;
+    font-size: 35px;
+}
+.desktoptext{
+    width: 100%;
+    font-size: 20px;
+}
+.getstarted{
+    margin-top: 30px;
+}
+.btn-getstarted{
+    background-color: blue;
+    color:white;
+    padding:20px 45px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-getstarted:hover{
+    background-color: transparent;
+    color:black;
+    transition: 0.9s;
+}
+.dashboard-image{
+    width:100%;
+    height: 80vh;
+}
+.mobile{
+    display:none;
+}
+.hero-mobile{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+h1{
+    font-size: 20px;
+}
+.left-mobile{
+    width: 100%;
+    padding: 10px  60px;
+}
+.right-mobile{
+    width:100%;
+}
+.btn-mobile{
+    background-color: blue;
+    color:white;
+    padding:10px 25px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-mobile:hover{
+    background-color: transparent;
+    color:black;
+    transition: 0.9s;
+}
+.mobile-dashboard-image{
+    width:100%;
+    height: 55vh;
+}
+@media screen and (max-width:900px) {
+    .hero-desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
