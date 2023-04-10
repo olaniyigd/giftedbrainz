@@ -16,6 +16,7 @@
 .career-text{
     cursor: pointer;
     text-align: center;
+    padding: 10px 20px;
     border: 2px solid black;
 }
 .career-desktop{
@@ -59,6 +60,7 @@
 .mobile-one, .mobile-two{
     text-align: justify;
     padding: 0 77px;
+    font-size: 13px;
 }
 .mobilepic-two{
     width: 300px;
@@ -75,5 +77,8 @@
     }   
     .mobilecareer{
         display: block;
+    }
+    .career-text{
+        font-size: 13px;
     }
 }

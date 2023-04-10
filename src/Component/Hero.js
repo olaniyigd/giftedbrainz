@@ -10,7 +10,7 @@ export default function Hero(){
                 <h5>We Breed And Reward Intellectuals</h5>
                 <p className="desktoptext">Earn And Learn Unlimited As A Member...</p>
                 <div className="getstarted">
-                <Link to={'./signup'}><button className="btn-getstarted">Get Started</button></Link>
+                <button className="btn-getstarted">Get Started</button>
                 </div>
             </div>
             <div className="right-desktop">

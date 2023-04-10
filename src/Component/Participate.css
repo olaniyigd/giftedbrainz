@@ -13,7 +13,7 @@
 .p-title{
     cursor: pointer;
     text-align: center;
-    padding:20px;
+    padding:10px 20px;
     border: 2px solid black;
 }
 .desktop-p{
@@ -46,12 +46,12 @@
 }
 .mobilep-h2{
     text-align: center;
-    padding: 10px;
+    font-size: 15px;
 }
 .pmobile-text{
     width: 100%;
     text-align: center;
-    padding: 10px;
+    font-size: 13px;
 }
 @media screen and (max-width:900px){
     .desktop-p{

@@ -25,7 +25,7 @@ a{
 .desktop-nav ul{
     display:flex;
     gap:50px;
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: none;
 }
 .desktop-nav ul li{
@@ -53,6 +53,7 @@ a{
     background-color: blue;
     border:5px solid blue;
     color:white;
+    margin-right: 20px;
 }
 .sign-in:hover{
     background-color: transparent;

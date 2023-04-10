@@ -14,8 +14,8 @@
     align-items: center;
 }
 .footer-text{
-    padding: 30px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     color:white;
     text-align: center;
 }
@@ -40,10 +40,11 @@
     margin-bottom: 20px;
 }
 .desktop-hed{
-    font-size: 20px;
+    font-size: 15px;
 }
-.desktop-text1{
-    font-size: 13px;
+.desk-text1{
+    font-size: 100px;
+    cursor: pointer;
 }
 .deskcopyright{
     color: white;

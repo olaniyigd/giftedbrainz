@@ -18,10 +18,11 @@
 .desktop-h1{
     color: white;
     margin-bottom: 5px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .desktop-text{
     color: white;
+    font-size: 15px;
 }
 .mobile-about{
     background-color: blue;
@@ -47,7 +48,7 @@
     width: 100%;
     color: white;
     padding: 10px 0px;
-    font-size: 23px;
+    font-size: 18px;
     text-align: left;
 }
 @media screen and (max-width:900px) {

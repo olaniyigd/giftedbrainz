@@ -71,7 +71,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap:50px;
+    gap:20px;
     padding: 0 20%;
 }
 .mobile-academic-one{
@@ -92,15 +92,15 @@
 }
 .mobi-par{
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 13px;
 }
 .mobi-para1{
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 15px;
 }
 .mobi-para2{
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 12px;
 }
 .mobile-btn1{

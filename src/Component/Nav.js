@@ -10,13 +10,13 @@ export default function Nav (){
     return(
         <>
             <nav className="desktop-nav" id="arrowicon">
-                <Link to={"/"}><img src={logo} atl="logo" className="logo"/></Link>
+                <Link to={"/"}><img src={logo} alt="logo" className="logo"/></Link>
                 <ul>
                     <a href="#academic"><li>Course</li></a>
                     <a href="#career"><li>Career</li></a>
                     <a href="#about"><li>About Us</li></a>
                 </ul>
-                <Link to={'/signin'}><button className="sign-in">Sign In</button></Link>
+                <button className="sign-in">Sign In</button>
                 <div>
                 <button className="btn-1" onClick={toggleSwitch}> <FiMenu/> </button>
                 </div>

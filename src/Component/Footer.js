@@ -13,7 +13,7 @@ const Footer = () => {
                 <Foot 
                     un = "desktop-hed"
                     txt = "Products"
-                    gun = "desktop-txt1"
+                    guni = "desk-txt1"
                     txtgun = "Course"
                     quiz = "Quiz"
                     refer = "Refer Program"
@@ -24,7 +24,7 @@ const Footer = () => {
                 <Foot 
                     un = "desktop-hed"
                     txt = "About"
-                    gun = "desktop-txt1"
+                    guni = "desk-txt1"
                     txtgun = "What We Do"
                     quiz = "Our Mission"
                     refer = "Contact Us"
@@ -36,7 +36,7 @@ const Footer = () => {
                 <Foot 
                     un = "desktop-hed"
                     txt = "Resources"
-                    gun = "desktop-txt1"
+                    guni = "desk-txt1"
                     txtgun = "Docs"
                     quiz = "Careers"
                     refer = "Blog"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <Foot 
                     un = "mobile-hed"
                     txt = "Products"
-                    gun = "mobile-txt1"
+                    guni = "mobile-txt1"
                     txtgun = "Course"
                     quiz = "Quiz"
                     refer = "Refer Program"
@@ -62,7 +62,7 @@ const Footer = () => {
                 <Foot 
                     un = "mobile-hed"
                     txt = "About"
-                    gun = "mobile-txt1"
+                    guni = "mobile-txt1"
                     txtgun = "What We Do"
                     quiz = "Our Mission"
                     refer = "Contact Us"
@@ -74,7 +74,7 @@ const Footer = () => {
                 <Foot 
                     un = "mobile-hed"
                     txt = "Resources"
-                    gun = "mobile-txt1"
+                    guni = "mobile-txt1"
                     txtgun = "Docs"
                     quiz = "Careers"
                     refer = "Blog"

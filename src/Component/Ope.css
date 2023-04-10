@@ -33,14 +33,15 @@
     gap:20px;
     padding: 0 20%;
 }
-.mobilepart-h2{
+.mobipart-h2{
+    margin-top: 10px;
     text-align: center;
-    padding: 10px;
+    font-size: 15px;
 }
 .partmobi-text{
     width: 100%;
     text-align: center;
-    padding: 10px;
+    font-size: 13px;
 }
 @media screen and (max-width:900px){
     .particip-desktop{

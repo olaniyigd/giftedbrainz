@@ -14,6 +14,8 @@
 .feature-title{
     cursor: pointer;
     text-align: center;
+    padding: 10px 20px;
+    font-size: 15px;
     border: 2px solid black;
 }
 .desktop-feature{
@@ -24,6 +26,9 @@
     text-align: center;
     gap:50px;
     padding: 0 10%;
+}
+.desktop-h3{
+    font-size: 15px;
 }
 .desktop-featone{
     width: 100%;
@@ -39,12 +44,12 @@
     font-size: 13px;
 }
 .deskimage{
-    width: 350px;
-    height: 230px;
+    width: 100%;
+    height: 100%;
 }
 .mobimage{
-    width: 260px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
 }
 .mobile-feature{
     width: 100%;
@@ -53,7 +58,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap:50px;
+    gap:20px;
     padding: 0 19%;
 }
 .mobile-featone{
@@ -63,6 +68,9 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     margin-bottom: 30px;
+}
+.mobile-h3{
+    font-size: 14px;
 }
 .mobile-feat{
     display: none;
